@@ -65,8 +65,8 @@ const Home = () => (
 
       {/* hero text */}
     </div>
-    <div className="col-12">
-<p className="col-6 text-center hero-main-text ">PKB Accounting Services is a CPA Firm which is engaged in providing highly effective business solutions 
+    <div className="col-12 container">
+<p className="col-xl-6 col-lg-12 col-md-12  col-sm-12 col-xs-12 text-center hero-main-text ">PKB Accounting Services is a CPA Firm which is engaged in providing highly effective business solutions 
         for a wide range of  companies, partnerships, individuals, companies, SMSF and small businesses
          in Perth Region.
              We provide highly affordable Accounting and Taxation services in North of Perth 
@@ -80,8 +80,8 @@ const Home = () => (
   </div>
 
   {/* info buttons */}
-  <div className="text-center info-button-main-div ">
-        <button className="info-buttons">
+  <div className="text-center info-button-main-div container d-flex gap-2 flex-wrap  ">
+        <button className="info-buttons ">
             <div className="d-flex flex-column text-center">
                 <p className="info-buttons-p1">13+</p>
                 <p className="info-buttons-p2">Years Of Experience</p>
@@ -115,7 +115,7 @@ const Home = () => (
     </div>
 
      {/* our services */}
-     <div className="our-services-top-main-div">
+     <div className="our-services-top-main-div container">
         <div className="d-flex flex-row justify-content-between col-12 our-services-top">
             <p className="our-services-top-p">Our Services</p>
              <button className="our-services-top-button" >Schedule a Call <span style={{ marginLeft: '8px' }}>→</span> </button>
@@ -127,7 +127,7 @@ const Home = () => (
      </div>
   
   {/* service card */}
-  <div className="d-flex flex-row service-card-main-div">
+  <div className="d-flex flex-row service-card-main-div justify-content-center">
     <div className="d-flex flex-column service-card-row1">
   {/* card1 */}
 <div className="service-card service-card1-border">
@@ -179,7 +179,7 @@ const Home = () => (
   </div>
    <div className="d-flex flex-column">
   {/* card1 */}
-<div className="service-card service-card1-border">
+<div className="service-card  service-card1-border">
   <div className="icon-container">
     <img src="/Group.png" alt="CFO Icon" className="service-icon" />
   </div>

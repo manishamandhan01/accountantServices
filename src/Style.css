@@ -287,7 +287,7 @@ textarea {
     font-family: 'Crimson Text', serif;
     line-height: 30px;
     font-size: 18px;
-    padding-left: 105px;
+    /* padding-left: 105px; */
     padding-top: 32px;
 }
 .info-buttons{
@@ -295,7 +295,7 @@ textarea {
     border-radius: 24px;
     background-color: white;
     padding: 9px 41px 9px 41px;
-    margin-left: 33px;
+    /* margin-left: 33px; */
 
 }
 .info-buttons-p1{
@@ -314,8 +314,8 @@ textarea {
 }
    .info-button-main-div{
  padding-top: 261px;
-    padding-left: 133px;
-    padding-right: 133px;
+    /* padding-left: 133px;
+    padding-right: 133px; */
    }
    .our-services-top-main-div{
     background-color: #F2F2F2;
@@ -323,13 +323,11 @@ textarea {
     
    }
    .our-services-top{
-        padding-left: 351px;
-    padding-right: 269px;
+        /* padding-left: 351px;
+    padding-right: 269px; */
     padding-top: 43px;
-     
-
-   
    }
+  
    .our-services-top-p{
     font-family: 'Crimson Text', serif;
     font-size: 24px;
@@ -395,7 +393,7 @@ textarea {
 .service-card-row1
 {
     border-right: 1px solid black;
-    margin-left: 351px;
+    /* margin-left: 351px; */
 }
 .service-card1-border{
     border-bottom: 1px solid black;
@@ -660,7 +658,7 @@ textarea {
     position: absolute;
     top: -346px;
     right: 30px;
-   
+    z-index: 999;
 }
 .footer-socials {
   margin-top: 15px;
@@ -690,11 +688,10 @@ textarea {
 }
 
 .footer-column h4 {
-  margin-bottom: 10px;
-  font-weight: 500;
-  color: white;
-  margin-left: 178px;
-
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: white;
+    margin-left: 80px;
 }
 
 .footer-column ul {
@@ -705,10 +702,10 @@ textarea {
 }
 
 .footer-column ul li {
-  margin-bottom: 8px;
-     margin-left: 178px;
-  font-size: 14px;
-  color: #f1f1f1;
+    margin-bottom: 8px;
+    margin-left: 80px;
+    font-size: 14px;
+    color: #f1f1f1;
 }
 
 .footer-bottom {
@@ -719,3 +716,12 @@ textarea {
 }
 
 /* Footer */
+
+
+/* ServicesPage */
+
+
+.service-section-2-image{
+  width: 100%;
+}
+/* ServicesPage */

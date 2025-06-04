@@ -2,9 +2,14 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="site-footer position-relative">
-      <div className="footer-contact-card">
-        <form className="contact-form gradient-bg">
+    <div className="position-relative " >
+
+ <div className="footer-contact-card ">
+  <div className="container">
+
+
+ 
+        <form className="contact-form gradient-bg ">
           <h4 className="form-heading">Let’s work together.</h4>
           <p className="form-subtext">We will get in touch right away</p>
 
@@ -48,7 +53,9 @@ const Footer = () => {
             <button type="submit">Submit</button>
           </div>
         </form>
-      </div>
+      </div> </div>
+    <footer className="site-footer position-relative ">
+      
       <div className="footer-top d-flex flex-column">
         <div className="footer-logo-section">
           <h2 className="footer-logo">
@@ -116,7 +123,7 @@ const Footer = () => {
       <div className="footer-bottom">
         <p>Copyright © 2025 Expert IT Brains Pvt. Ltd.</p>
       </div>
-    </footer>
+    </footer>   </div>
   );
 };
 

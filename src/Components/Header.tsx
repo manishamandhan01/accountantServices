@@ -1,5 +1,6 @@
 import React from "react";
 import "../Style.css";
+import "../Responsive.css";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -10,7 +11,7 @@ const Header = () => {
       
       <div className="container col-12 row m-auto align-items-center top-header  ">
         {/* Left: Social Media Icons */}
-        <div className="d-flex gap-4 col-xl-5 col-lg-5 col-md-12 col-sm-12">
+        <div className= " links-top-header d-flex gap-4 col-xl-5 col-lg-5 col-md-12 col-sm-12">
           <a href="#" className="text-dark">
             <i className="fab fa-facebook-f text-light"></i>
           </a>
@@ -23,7 +24,7 @@ const Header = () => {
         </div>
 
         {/* Right: Contact Info */}
-        <div className="d-flex flex-wrap gap-3 justify-content-end text-secondary small col-xl-7 col-lg-7 col-md-12 col-sm-12">
+        <div className="d-flex contact-info-top-header flex-wrap gap-3 justify-content-end md-justify-content-normal text-secondary small col-xl-7 col-lg-7 col-md-12 col-sm-12">
           <div className="d-flex align-items-center gap-2">
             <i className="fas fa-map-marker-alt text-success"></i>
             <span className="crimson-font heading-16 font-regular text-center text-light">
