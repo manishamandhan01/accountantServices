@@ -11,7 +11,7 @@ const Home = () => (
     <div className="hero-overlay">
         {/* hero imgage */}
       <div className="hero-text">
-        Registered Tax Agent and <br /> ASIC Approved SMSF Auditor
+        Registered Tax Agent and <br /> ASIC Approved SMSF Auditor 
       </div>
       {/* hero contact form */}
 
