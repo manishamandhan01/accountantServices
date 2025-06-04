@@ -1,6 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+/* Global Reset and Body Styling */
+body {
+  font-family: 'Arial', sans-serif; /* Default font family */
+  line-height: 1.6; /* Line height for readability */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  box-sizing: border-box; /* Make sure padding and border are included in width/height */
+  background-color: #ffffff; /* Light background color */
+  color: #000000; /* Text color */
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  -webkit-font-smoothing: antialiased; /* Improve font rendering */
+  -moz-osx-font-smoothing: grayscale; /* Improve font rendering on macOS */
+  height: 100%; /* Make sure body takes full height */
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+.container{
+  width: 100%;
+  max-width:1440px ;
+  padding:  0px 69px;
 
-
+}
+.top-header{
+  padding-top: 11px ;
+  padding-bottom: 11px ;
+}
 .bg-color-bege{
     background-color: #BDBAB2;
 }
