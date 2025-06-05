@@ -27,7 +27,7 @@ const HomeServicesSection = () => {
   }, []);
 
   return (
-    <div className="services-container">
+    <div className="services-container ">
       <h2 className="section-heading">All your needs in one place</h2>
 
       <div className="d-flex flex-column">

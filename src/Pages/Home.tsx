@@ -115,10 +115,13 @@ const Home = () => (
     </div>
 
      {/* our services */}
-     <div className="our-services-top-main-div container">
-        <div className="d-flex flex-row justify-content-between col-12 our-services-top">
-            <p className="our-services-top-p">Our Services</p>
+     <div className="our-services-top-main-div ">
+        <div className=" container">
+          <div className="d-flex flex-row justify-content-between col-12 our-services-top" >
+             <p className="our-services-top-p">Our Services</p>
              <button className="our-services-top-button" >Schedule a Call <span style={{ marginLeft: '8px' }}>→</span> </button>
+          </div>
+           
 
         </div>
         <div>
