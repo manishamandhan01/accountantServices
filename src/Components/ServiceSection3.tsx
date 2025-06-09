@@ -1,7 +1,13 @@
 import React, { useState } from "react";
 import ServiceSection3_1 from "./ServiceSection3.1";
 
-const ServiceSection3 = () => {
+interface ServiceSection3Props {
+  isOpen: boolean;
+  onToggle: () => void;
+}
+
+const ServiceSection3: React.FC<ServiceSection3Props> = ({ isOpen, onToggle }) => {
+  
   const [showMore, setShowMore] = useState(false);
   
     const toggleSection = () => {
@@ -27,7 +33,7 @@ const ServiceSection3 = () => {
               <span className="custom-btn-wrapper mt-4">
               <button onClick={toggleSection} className="filled-btn mt-4">
                 <span className="btn-text">
-                  {showMore ? (
+                  {isOpen ? (
                     <>
                       Know More <img src="downarrow.png" className="arrow"  alt="Down arrow" />
                     </>
@@ -45,7 +51,7 @@ const ServiceSection3 = () => {
        
       </div>
        {/* Toggleable Section */}
-      {showMore && (
+      {isOpen && (
         <div className="pt-3">
           <ServiceSection3_1/>
         </div>

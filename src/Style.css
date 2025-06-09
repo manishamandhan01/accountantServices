@@ -87,6 +87,7 @@ body {
   padding: 10px 20px;
   font-family: "Crimson Text", serif;
 }
+
 .hero-container {
   position: relative;
   width: 100%;
@@ -736,6 +737,7 @@ textarea {
 
 .curveimage {
   width: 100%;
+  margin-top: 150px;
 }
 
 .about-container {
@@ -1085,3 +1087,36 @@ textarea {
   margin-top: 22px;
 }
 /* Service */
+
+/* contact */
+.contact-hero-text{
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 30%; /* Center horizontally */
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-family: "Crimson Text", serif;
+  text-align: left;
+  margin-bottom: 50px;
+
+}
+.contact-hero-text2{
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 30%; /* Center horizontally */
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+  padding: 10px 20px;
+  font-family: "Crimson Text", serif;
+  text-align: left;
+}
+.conatct-section2{
+  margin-top: 208px !important;
+  margin-bottom: 228px !important;
+}
+/* contact */
