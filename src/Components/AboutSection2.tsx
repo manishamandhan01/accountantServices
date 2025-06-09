@@ -22,8 +22,7 @@ const AboutSection2: React.FC = () => {
          Get in touch with us for all your accounting needs!</p>
         </div>
       </div>
-      {/* Curved SVG Bottom */}
-     {/* <img className='curveimage' src='Section-2curve.png'/> */}
+  
     </section>
   );
 };

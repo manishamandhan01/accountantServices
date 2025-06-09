@@ -1,5 +1,5 @@
-import TestimonialsCarousel from "./TestimonialsCarousel";
-import HomeServicesSection from "./HomeServiceSelection";
+import TestimonialsCarousel from "../Components/TestimonialsCarousel";
+import HomeServicesSection from "../Components/HomeServiceSelection";
 
 const Home = () => (
     <div>

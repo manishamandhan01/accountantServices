@@ -2,7 +2,7 @@ import AboutSection2 from "../Components/AboutSection2";
 import AboutSection3 from "../Components/AboutSection3";
 import AboutSection4 from "../Components/AboutSection4";
 import AboutSection5 from "../Components/AboutSection5";
-import TestimonialsCarousel from "./TestimonialsCarousel";
+import TestimonialsCarousel from "../Components/TestimonialsCarousel";
 
 
 const About = () => (
