@@ -29,8 +29,8 @@ const ServiceSection3_1 = () => {
         <div className="col-xl-12 col-lg-6 col-md-12 col-sm-12 about-section1-left text-center ">
           <div className="d-flex flex-column">
             <h2 className="service-section2_1-para">
-              PKB Accounting Services CFO Services clients are generally
-              long-term customersfor whom we provide some or all of the below
+              PKB Accounting Services, CFO Services clients are generally
+              long-term customers for whom we provide some or all of the below
               services. We generally spend a lot of time with new customers over
               the first few months developing a financial model of your business
               and creating systems to ensure smooth and simple financial

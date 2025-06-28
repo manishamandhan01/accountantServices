@@ -827,7 +827,7 @@ textarea {
   margin-right: 15px;
   font-size: 1.3rem;
 }
-.about-section4 {
+/* .about-section4 {
   padding: 90px 20px;
   text-align: center;
   background-color: #fff;
@@ -888,6 +888,11 @@ textarea {
   text-align: center;
   background-color: #f9f9f9;
 }
+.about4-card-icon i {
+  font-size: 2rem;
+  color: #2b7a78;
+  margin: 12px 0;
+}
 
 .about4-card-title {
   background-color: #2b7a78;
@@ -908,7 +913,86 @@ textarea {
   font-size: 0.9rem;
   color: #444;
   font-family: "Crimson Text", serif;
+} */
+ /* AboutSection4 Styles */
+.about-section4.container {
+  padding: 3rem 1rem;
+  background-color: #f9f9f9;
+  text-align: center;
+  margin-top: 125px;
+    font-family: "Crimson Text", serif;
 }
+
+.about4-heading {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.about4-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color:#4a9083;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 25px;
+}
+
+.about4-button:hover {
+  background-color: #0056b3;
+}
+
+/* Grid styling */
+.about4-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-top: 2.5rem;
+  
+}
+
+/* Card styling */
+.about4-card {
+  background-color: #fff;
+  border-radius: 0.75rem;
+  padding: 1.5rem 1.2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.about4-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.about4-card-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #4a9083;
+  text-decoration: none;
+}
+
+.about4-card-title:hover {
+  text-decoration: underline;
+}
+
+.about4-card-icon {
+  font-size: 2rem;
+  color: #343a40;
+  margin: 1rem 0;
+}
+
+.about4-card-text {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
 .about-section5-container {
   display: flex;
   flex-wrap: wrap;

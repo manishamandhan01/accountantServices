@@ -35,7 +35,7 @@ const HomeServicesSection = () => {
           <div className="service-item" ref={(el) => {
     refs.current[0] = el;
   }}>
-            <img src="/Untitled-design-11.jpg" alt="Taxation" />
+            <img src="/tax.jpg" alt="Taxation" />
             <div className="service-label">Taxation</div>
           </div>
           <div className="service-item"  ref={(el) => {

@@ -13,15 +13,15 @@ const AboutSection5: React.FC = () => {
 
       <div className="about-section5-right">
         <p className="about-section5-paragraph">
-          AVS Advisors has answers to all of your tax and financial questions.
-          Our experts have years of taxation, accounting and consulting
-          experience and will support you in all aspects of business and
-          financial management, from the everyday to the complex tasks. Our
-          qualified and trained team are committed to provide our clients with
-          timely, professional service of the highest quality. With our
-          extensive and careful planning AVS Advisors provides a total business
-          solution that helps clients take control of their finances and achieve
-          their financials goals.
+          PKB Accountants, we have the answers to all of your tax and financial
+            questions. Our experts have years of Taxation, Accounting, and
+            consulting experience and will support you in all aspects of
+            business and financial management, from everyday to complex tasks.
+            Our qualified and trained team is committed to providing our clients
+            with timely, professional service of the highest quality. With our
+            extensive and careful planning, PKB Accountants provides a total
+            business solution that helps clients take control of their finances
+            and achieve their financial goals.
         </p>
         <div className="d-flex flex-row about-section5-right-bottom ">
           <div className="about-section5-lists">

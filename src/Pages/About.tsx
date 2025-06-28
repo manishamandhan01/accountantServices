@@ -17,13 +17,13 @@ const About = () => (
             Certified Practising <span>Accountants</span>
           </h2>
           <p className="about-section1-left-para mt-4">
-            SRM Advisors, we have the answers to all of your tax and financial
+            PKB Accountants, we have the answers to all of your tax and financial
             questions. Our experts have years of Taxation, Accounting, and
             consulting experience and will support you in all aspects of
             business and financial management, from everyday to complex tasks.
             Our qualified and trained team is committed to providing our clients
             with timely, professional service of the highest quality. With our
-            extensive and careful planning, SRM Advisors provides a total
+            extensive and careful planning, PKB Accountants provides a total
             business solution that helps clients take control of their finances
             and achieve their financial goals.<br>
             </br>
@@ -33,7 +33,7 @@ const About = () => (
         </div>
       </div>
       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-        <img src="/person.png" className="w-100" />
+        <img src="/person.jpg" className="w-100" />
       </div>
     </div>
      {/* section 1 */}

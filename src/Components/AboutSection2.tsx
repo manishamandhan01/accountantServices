@@ -6,8 +6,8 @@ const AboutSection2: React.FC = () => {
     <section className="about-section2  ">
       <div className="about-container container ">
         <h1 className="about-heading ">
-          Taxation | Accounting | Bookkeeping |{' '}
-          <span className="highlight-blue">Business Startup</span> | Accounting Software
+          Tax Returns | Self Managed Super Fund | Tax Planning |{' '}
+          <span className="highlight-blue">Tax Advice</span> | Trust Administration | BAS and PAYG
         </h1>
         <div className="about-content   ">
           <p>
@@ -16,10 +16,10 @@ const AboutSection2: React.FC = () => {
           
             When it comes to the right kind of service while keeping your trust intact, we should be definitely given a chance.
          
-            The game is all about trying us once and then making the feedback. If you never try out SRM Taxation and Accounting Services,
+            The game is all about trying us once and then making the feedback. If you never try out PKB Taxation and Accounting Services,
             you would definitely not know, what we have been doing and in what way we could easily claim that things would definitely
             be done in a better way for you leaving you immensely satisfied too!
-         Get in touch with us for all your accounting needs!</p>
+         Get in touch with us for all your taxation and accounting needs!</p>
         </div>
       </div>
   

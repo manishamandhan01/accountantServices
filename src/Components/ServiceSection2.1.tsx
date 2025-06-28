@@ -33,13 +33,14 @@ const ServiceSection2_1 = () => {
               accountant becomes quite necessary. A tax accountant helps in
               preparing and submitting the tax return. When it comes to a tax
               return, you would always want to work with professionals who have
-              experience in the industry. Our firm SRM Taxation and Accounting
-              services in Osborne Park & Canning vale have accountants that
+              experience in the industry. Our firm PKB Accounting
+              Services in Wanneroo have accountants that
               would help you in managing and growing your business while
               ensuring that all the tax regulations are rightly followed.
             </h2>
             <h2 className="service-section2_1-paraheading mt-5">
-              What Tax services do SRM Taxation and Accounting services offer?
+              What Tax services do PKB Accounting
+              Services offer?
             </h2>
             <div className="service-section2_1-para mt-2">
               <p>
@@ -55,7 +56,8 @@ const ServiceSection2_1 = () => {
                   gains in the year.
                 </li>
                 <li>
-                  <strong>Business Tax Returns:</strong> At SRM Taxation, we
+                  <strong>Business Tax Returns:</strong> At PKB Accounting
+              Services, we
                   help with tax returns of all sizes—from small businesses to
                   larger companies and even trusts. We can also help you meet
                   your GST obligations.
@@ -104,7 +106,8 @@ const ServiceSection2_1 = () => {
       <section className="service-green-section  ">
         <div className="service-container  ">
           <h1 className="Service-Section-2_1-green-heading ">
-            Review your Tax Returns with SRM Taxation and Accounting services
+            Review your Tax Returns with PKB Accounting
+              Services
           </h1>
           <div className="service-content-green   ">
             <p>
@@ -131,7 +134,7 @@ const ServiceSection2_1 = () => {
                 We understand the needs and requirements of our clients and work
                 hard in helping them claim the maximum tax return that they are
                 eligible for. As a taxation and accounting service provider in
-                Osborne Park & Canning vale, Perth, we are known for the quality
+                Wanneroo, we are known for the quality
                 of our work.
               </p>
               <ul className="ps-5">
@@ -155,7 +158,8 @@ const ServiceSection2_1 = () => {
                   <strong><b>No outsourcing:</b> </strong> From the reviewing of the tax return, to claim making and filing of it everything is done by us. It is our aim to make sure that the tax return is made in the best possible way.
                 </li>
                  <li>
-                  <strong><b>Guaranteed satisfaction:</b>  </strong>  We can vouch for the quality of our products and services. At SRM taxation, you get 100 percent guarantee for the work being done by our team of tax accountants.
+                  <strong><b>Guaranteed satisfaction:</b>  </strong>  We can vouch for the quality of our products and services. At PKB Accounting
+              Services, you get 100 percent guarantee for the work being done by our team of tax accountants.
                 </li>
               </ul>
             </div>

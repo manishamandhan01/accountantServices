@@ -121,7 +121,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>Copyright © 2025 Expert IT Brains Pvt. Ltd.</p>
+        <p>Copyright © 2025 PKB accounting services.</p>
       </div>
     </footer>   </div>
   );
